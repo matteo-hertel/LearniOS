@@ -14,6 +14,8 @@
 		B38994D42963145400936A9C /* LearniOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38994D32963145400936A9C /* LearniOSTests.swift */; };
 		B38994DE2963145400936A9C /* LearniOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38994DD2963145400936A9C /* LearniOSUITests.swift */; };
 		B38994E02963145400936A9C /* LearniOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38994DF2963145400936A9C /* LearniOSUITestsLaunchTests.swift */; };
+		B38994ED29631AFA00936A9C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38994EC29631AFA00936A9C /* CircleImage.swift */; };
+		B38994EF29631E0000936A9C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38994EE29631E0000936A9C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B38994D92963145400936A9C /* LearniOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearniOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38994DD2963145400936A9C /* LearniOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearniOSUITests.swift; sourceTree = "<group>"; };
 		B38994DF2963145400936A9C /* LearniOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearniOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B38994EC29631AFA00936A9C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B38994EE29631E0000936A9C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				B38994C22963145300936A9C /* LearniOSApp.swift */,
 				B38994C42963145300936A9C /* ContentView.swift */,
+				B38994EC29631AFA00936A9C /* CircleImage.swift */,
+				B38994EE29631E0000936A9C /* MapView.swift */,
 				B38994C62963145300936A9C /* Assets.xcassets */,
 				B38994C82963145300936A9C /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B38994C52963145300936A9C /* ContentView.swift in Sources */,
+				B38994EF29631E0000936A9C /* MapView.swift in Sources */,
 				B38994C32963145300936A9C /* LearniOSApp.swift in Sources */,
+				B38994ED29631AFA00936A9C /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
